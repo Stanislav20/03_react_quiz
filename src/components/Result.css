@@ -1,0 +1,31 @@
+.result {
+	text-align: center;
+}
+
+button {
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+	border-radius: 30px;
+	border: 0;
+	padding: 15px 30px;
+	font-size: 20px;
+	background-color: #f00067;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	color: #fff;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+button:hover {
+	transform: translateY(-2px);
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+img {
+	width: 150px;
+}
+
