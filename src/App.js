@@ -17,6 +17,10 @@ function App() {
 		}
 	}
 
+	const onClickRrepeatTest = () => {
+		setStep(0)
+	}
+
   return (
     <div className="App">
 			{
@@ -28,6 +32,7 @@ function App() {
 						step={step} 
 					/>
 					: <Result
+						onClickRrepeatTest={onClickRrepeatTest}
 						questions={questions}
 						correctVariant={correctVariant}
 					/>
